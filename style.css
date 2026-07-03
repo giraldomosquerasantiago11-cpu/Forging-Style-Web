@@ -486,3 +486,32 @@ footer h3 {
     font-weight:bold;
 
 }
+/* PRODUCTO AGOTADO */
+.producto.agotado {
+    position: relative;
+}
+
+.producto.agotado::before {
+    content: "AGOTADO";
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    background: red;
+    color: white;
+    padding: 8px 15px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 6px;
+    z-index: 10;
+}
+
+.producto.agotado img {
+    filter: grayscale(100%);
+    opacity: 0.6;
+}
+
+.producto.agotado button {
+    background: #777;
+    cursor: not-allowed;
+    pointer-events: none;
+}
