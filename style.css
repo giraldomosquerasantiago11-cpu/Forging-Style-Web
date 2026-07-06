@@ -73,10 +73,10 @@ nav a:hover {
             rgba(0, 0, 0, 0.45),
             rgba(0, 0, 0, 0.60)
         ),
-        url("img/Gorra-principal.png");
+        url("img/Imagen-principal.png");
 
-    background-size: 70%;
-    background-position: center 62%;
+    background-size: 100%;
+    background-position: center 40%;
     background-repeat: no-repeat;
 
     display: flex;
@@ -91,7 +91,7 @@ nav a:hover {
     overflow: hidden;
 }
     width: 320px;
-    margin: 30px 0;
+    margin: 40px 0;
     padding: 20px;
 
     background-color: #1a1a1a;
@@ -220,8 +220,8 @@ html {
 }
 .boton-hero {
     display: inline-block;
-    margin-top: 20px;
-    padding: 12px 25px;
+    margin-top: 500px;
+    padding: 12px 50px;
 
     background-color: silver;
     color: black;
@@ -229,7 +229,7 @@ html {
     text-decoration: none;
     font-weight: bold;
 
-    border-radius: 8px;
+    border-radius: 100px;
 
     transition: 0.3s;
 }
@@ -496,13 +496,13 @@ footer h3 {
     position: absolute;
     top: 15px;
     left: 15px;
-    background: red;
+    background: rgb(255, 81, 0);
     color: white;
     padding: 8px 15px;
     font-size: 16px;
     font-weight: bold;
-    border-radius: 6px;
-    z-index: 10;
+    border-radius: 6px;s
+    z-index:10;
 }
 
 .producto.agotado img {
